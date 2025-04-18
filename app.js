@@ -1,7 +1,10 @@
-var map = L.map('map').setView([12.2958, 76.6394], 13);
+var map = L.map('map', {
+    center: [12.295810, 76.639381],
+    zoom: 13
+});
 
 // Base map
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Her Safety'
 }).addTo(map);
 
