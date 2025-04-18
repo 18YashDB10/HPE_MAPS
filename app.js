@@ -2,7 +2,7 @@ var map = L.map('map').setView([12.2958, 76.6394], 13);
 
 // Base map
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
+    attribution: 'Her Safety'
 }).addTo(map);
 
 // Address points with danger levels (0 to 10)
