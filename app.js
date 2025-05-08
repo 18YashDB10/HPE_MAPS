@@ -32,7 +32,7 @@ fetch("https://yashdb18-hersafety.hf.space/app/get_maps_data")
             radius: 25,
             blur: 15,
             maxZoom: 17,
-            gradient: { 0.5: 'green' }
+            gradient: { 0.5: 'yellow' }
         }).addTo(map);
 
         var heat2 = L.heatLayer(greaterOrEqual5, {
